@@ -1,0 +1,28 @@
+{
+  "name": "game-websocket-client",
+  "version": "1.0.0",
+  "description": "Client kết nối WebSocket lấy dữ liệu bàn tài xỉu",
+  "main": "sao.js",
+  "scripts": {
+    "start": "node sao.js",
+    "dev": "nodemon sao.js"
+  },
+  "keywords": [
+    "websocket",
+    "express",
+    "client"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.2",
+    "puppeteer": "^25.2.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
